@@ -1,4 +1,6 @@
-package com.example.object;
+package com.example.object.movie;
+
+import com.example.object.util.Money;
 
 /**
  * Created by sthwin on 2021/01/24 10:39 오후

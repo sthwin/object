@@ -1,4 +1,6 @@
-package com.example.object;
+package com.example.object.movie;
+
+import com.example.object.util.Money;
 
 /**
  * 금액 할인 정책

@@ -1,10 +1,12 @@
-package com.example.object;
+package com.example.object.movie;
+
+import com.example.object.util.Money;
 
 import java.time.Duration;
 
 /**
  * 영화 클래스
- *
+ * <p>
  * Created by sthwin on 2020/12/21 9:42 오후
  */
 public class Movie {
@@ -26,5 +28,9 @@ public class Movie {
 
     public Money calculateMovieFee(Screening screening) {
         return fee.minus(discountPolicy.calculateDiscountAmount(screening));
+    }
+
+    public void changeDiscountPolicy(DiscountPolicy discountPolicy) {
+        this.discountPolicy = discountPolicy;
     }
 }

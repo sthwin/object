@@ -1,4 +1,4 @@
-package com.example.object;
+package com.example.object.movie;
 
 /**
  * 할인 조건 클래스

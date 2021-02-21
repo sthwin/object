@@ -1,4 +1,4 @@
-package com.example.object;
+package com.example.object.movie;
 
 /**
  * Created by sthwin on 2021/01/24 10:25 오후

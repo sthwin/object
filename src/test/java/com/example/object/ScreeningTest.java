@@ -1,5 +1,7 @@
 package com.example.object;
 
+import com.example.object.movie.*;
+import com.example.object.util.Money;
 import org.junit.jupiter.api.Test;
 
 import java.time.DayOfWeek;
@@ -30,5 +32,10 @@ class ScreeningTest {
                         new PeriodCondition(DayOfWeek.TUESDAY, LocalTime.of(14, 0), LocalTime.of(16, 59)),
                         new SequenceCondition(2),
                         new PeriodCondition(DayOfWeek.THURSDAY, LocalTime.of(10, 0), LocalTime.of(13, 59))));
+
+        Movie startWars = new Movie("스타워크",
+                Duration.ofMinutes(210),
+                Money.wons(10000),
+                new NoneDiscountPolicy());
     }
 }

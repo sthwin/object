@@ -1,4 +1,6 @@
-package com.example.object;
+package com.example.object.movie;
+
+import com.example.object.util.Money;
 
 /**
  * 예매 클래스
